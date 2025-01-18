@@ -1,4 +1,4 @@
-import {createBrowserRouter, createHashRouter, createRoutesFromElements, Route} from "react-router-dom";
+import {createHashRouter, createRoutesFromElements, Route} from "react-router-dom";
 import {RoutesPaths} from "./constants/RoutesPaths";
 import { Outlet } from "react-router-dom";
 
