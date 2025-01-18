@@ -33,6 +33,8 @@ export const StyledButton = styled.button<{$isFavorite: boolean}>`
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     z-index: 2;
+
+    
 `
 export const StyledCard = styled.div`
     position: relative;
@@ -69,5 +71,8 @@ export const StyledCard = styled.div`
 
     &:hover::after {
         display: block;
+    }
+    &:has(${StyledButton}:active) {
+        transform: translateY(-6px);
     }
 `
